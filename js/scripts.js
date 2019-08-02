@@ -42,7 +42,6 @@
 	
 	});
 	
-	
 	$('a[href="#"]').on('click', function(event){
 		return;
 	});

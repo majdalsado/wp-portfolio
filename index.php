@@ -95,10 +95,6 @@
 					</h1>
 					<h2 class="font-yellow profile-role"><?php echo get_option('titlerole'); ?></h2>
 					<ul class="information margin-tb-30">
-						<li>
-							<b>AGE : </b><?php echo $age= date("Y") - date("Y", 885254400); ?></li>
-						<li>
-							<b>EMAIL : </b><?php echo get_option('email'); ?></li>
 					</ul>
 					<ul class="social-icons">
 						<li>
@@ -135,7 +131,7 @@
 			<div class="col-sm-12 center-text">
 				<div class="heading mb-2">
 					<h3 style="text-align: center;">
-						<b>About me</b>
+						<b>Who am I</b>
 					</h3>
 				</div>
 			</div>
@@ -144,7 +140,7 @@
 				<p class="margin-b-30 text-center"><?=get_option('bio')?></p>
 				<div class="row">
 					<div class="col-md-3">
-						<h4 class="text-center mb-4"><b>Languages</b></h4>
+						<h4 class="text-center mb-4"><b>What I speak</b></h4>
 						<ul class="skills margin-b-30">
 							<li><span class="skill">English</span><span class="strength">Fluent</span></li>
 							<li><span class="skill">Arabic</span><span class="strength">Fluent</span></li>
@@ -153,7 +149,7 @@
 						</ul>
 					</div>
 					<div class="col-md-9">
-						<h4 class="text-center mb-4"><b>My Travels</b></h4>
+						<h4 class="text-center mb-4"><b>Where I've been</b></h4>
 						<div id="map"></div>
 					</div>
 
@@ -212,14 +208,14 @@
 								array('name' => 'Other', 'slug' => 'other')
 							);
 
-							foreach($cats as $cat){?>
+							foreach($cats as $cat):?>
 
 					<a href="#" data-filter=".<?php echo $cat['slug'] ?>" class="">
 						<b>
-							<?php echo $cat['name'] ?>
+							<?= $cat['name'] ?>
 						</b>
 					</a>
-					<?php } } ?>
+							<?php endforeach; } ?>
 				</div>
 				<!-- portfolioFilter -->
 			</div>

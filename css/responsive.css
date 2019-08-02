@@ -36,9 +36,9 @@
 
 	p{ line-height: 1.4; }
 
-	h1{ font-size: 3em; }
-	h2{ font-size: 2em; }
-	h3{ font-size: 1.8em; }
+	h1{ font-size: 3em}
+	h2{ font-size: 2em }
+	h3{ font-size: 1.8em }
 
 
 	
@@ -72,6 +72,29 @@
 
 	.portfolio-section .p-item{ max-width: 400px; }
 
+	.modal-dialog {
+		width: 100% !important;
+		margin: 0 !important;
+	  }
+  
+	  .gallery-carousel {
+		margin-bottom: 1.5rem!important;
+	  }
+  
+	  .project-title {
+		padding: 3rem !important;
+	  }
+
+	  .navbar  { left: 0px; width: 100%; }
+	  .navbar .nav > li { height: 60px; }
+	  .navbar .nav > li a { height: 60px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; }
+  
+	  .fixed .navbar { top: 0px; }
+	  .scroll-down { display:none; }
+
+	  .project-title h1 { font-size: 2em!important; }
+
+	  #projectModal .gallery-carousel .owl-item img{ width: inherit!important; }
 	
 	/* ---------------------------------
 	8. EDUCATION SECTION

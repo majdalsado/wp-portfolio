@@ -8,7 +8,7 @@ function startwordpress_scripts() {
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
 	wp_enqueue_style( 'fluidbox', get_template_directory_uri() . '/css/fluidbox.min.css' );
     wp_enqueue_style( 'ionicons', get_template_directory_uri() . '/css/ionicons.css' );
-    wp_enqueue_style( 'styles', get_template_directory_uri() . '/css/styles.css' );
+    wp_enqueue_style( 'styles', get_template_directory_uri() . '/css/styles.min.css' );
     wp_enqueue_style( 'responsive', get_template_directory_uri() . '/css/responsive.css' );
 
 	wp_enqueue_script( 'tether', get_template_directory_uri() . '/js/tether.min.js');
@@ -38,13 +38,12 @@ function startwordpress_google_fonts() {
     wp_register_style('Allura', 'https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura');
     wp_enqueue_style( 'Allura');
 }
-
 add_action('wp_print_styles', 'startwordpress_google_fonts');
 
 add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' ); 
 
-// Dynamically load projects
+// Dynamically load projects using project.php template
 function load_project(){
 	check_ajax_referer('load_project', 'security');
     $paged = $_POST['page'];
@@ -56,7 +55,7 @@ function load_project(){
     if ( $my_posts->have_posts() ) {
 		while ( $my_posts->have_posts() ){
 			$my_posts->the_post();
-			echo project_template();
+			require_once(get_template_directory() . '/project.php');
 		}
     }
  
@@ -65,82 +64,6 @@ function load_project(){
 add_action("wp_ajax_load_project", "load_project");
 add_action( "wp_ajax_nopriv_load_project", 'load_project' );
 
-function project_template(){
-	$html = '
-<div class="project-title text-center">
-	<h1>'.get_the_title().'</h1>
-	<h4><span class="curly-braces">{</span>'.get_the_category()[0]->name.'<span class="curly-braces">}</span></h4>
-</div>
-<section class="project">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<div class="gallery-carousel owl-carousel owl-theme">';	
-	foreach( get_field("gallery") as $img){
-		$html .= '<img class="owl-lazy" data-src="'.$img["sizes"]["medium_large"].'" alt="'.$img["alt"].'" />';
-	}
-	$html .= '				
-				</div>
-				<script>
-					$(document).ready(function() {
-						$(".gallery-carousel").owlCarousel({
-							items: 1,
-							lazyLoad: true,
-							lazyLoadEager: 1,
-							loop: true,
-							autoplay: true,
-							margin: 10
-						});
-					});
-				</script>
-			</div>
-			<div class="col-md-4">
-				<div class="heading">
-					<h4><b>Brief Facts</b></h4>
-				</div>
-
-				<div class="stats">
-					'.get_field('stats').'
-
-				</div>
-			</div>
-			<div class="col-md-12" style="margin-top:1rem;">';
-		if(get_the_category()[0]->name == 'Web Design'){
-			$html.= '<h4 class="heading"><b>Technologies</b></h4><div class="tech-carousel owl-carousel  owl-theme">';
-			foreach(get_field('technologies') as $tech){
-				$html.= '<img src="'.get_template_directory_uri() . '/images/technologies/'.$tech.'.png" title="'.$tech.'" alt="'.$tech.' logo">';
-			}
-			$html .= '</div><script>
-			$(document).ready(function () {
-				$(".tech-carousel").owlCarousel({
-					items: 10,
-					loop: true,
-					autoplay: true,
-					smartSpeed: 500,
-					dots: true,
-					margin: 10,
-					responsiveClass:true,
-					responsive:{
-						0:{
-							items:4
-						},
-						600:{
-							items:6
-						},
-						1000:{
-							items:10
-						}
-					}
-				});
-			});
-		</script>';
-		} else {
-            $html .= '<h4><b>Description</b></h4><p>'. apply_filters( 'the_content', get_the_content() ) . '</p>';
-		}
-		$html .= '</div></div></div></section>';
-			
-	return $html;
-}
 
 // Project Post Type
 function create_project_post() {

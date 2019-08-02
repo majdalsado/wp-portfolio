@@ -133,6 +133,11 @@ function setting_facebook() { ?>
 	<input type="text" name="facebook" id="facebook" value="<?php echo get_option( 'facebook' ); ?>" />
 <?php }
 
+// Github
+function setting_github() { ?>
+	<input type="text" name="github" id="github" value="<?php echo get_option( 'github' ); ?>" />
+<?php }
+
 // Instagram
 function setting_instagram() { ?>
 	<input type="text" name="instagram" id="instagram" value="<?php echo get_option( 'instagram' ); ?>" />
@@ -160,12 +165,14 @@ function setting_bio(){ ?>
 function custom_settings_page_setup() {
 	add_settings_section( 'section', 'All Settings', null, 'theme-options' );
 	add_settings_field( 'facebook', 'Facebook URL', 'setting_facebook', 'theme-options', 'section' );
+	add_settings_field( 'github', 'Github URL', 'setting_github', 'theme-options', 'section' );
 	add_settings_field( 'linkedin', 'Linkedin URL', 'setting_linkedin', 'theme-options', 'section' );
 	add_settings_field( 'titlerole', 'Title Role', 'setting_titlerole', 'theme-options', 'section' );
 	add_settings_field( 'instagram', 'Instagram URL', 'setting_instagram', 'theme-options', 'section' );
 	add_settings_field( 'email', 'Email', 'setting_email', 'theme-options', 'section' );
 	add_settings_field('bio', 'Biography', 'setting_bio', 'theme-options', 'section');
 
+	register_setting('section', 'github');
 	register_setting('section', 'facebook');
 	register_setting('section', 'linkedin');
 	register_setting('section', 'titlerole');

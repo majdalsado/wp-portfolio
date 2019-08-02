@@ -57,7 +57,7 @@
 					<div class="info">
 						<i class="icon ion-ios-chatboxes-outline"></i>
 						<div class="right-area">
-							<h5><?php echo get_option('email');?></h5>
+							<h5><?= get_option('email');?></h5>
 							<h6>REPLY IN 24 HOURS</h6>
 						</div>
 						<!-- right-area -->
@@ -87,29 +87,34 @@
 				<div class="intro">
 					<div class="profile-img">
 						<img class="img-circle"
-							src="<?php echo get_bloginfo('template_directory'); ?>/images/profile-1.jpg"
+							src="<?= get_bloginfo('template_directory'); ?>/images/profile-1.jpg"
 							alt="portait photo">
 					</div>
 					<h1 class="profile-name">
 						<b>Majd Alsado</b>
 					</h1>
-					<h2 class="font-yellow profile-role"><?php echo get_option('titlerole'); ?></h2>
+					<h2 class="font-yellow profile-role"><?= get_option('titlerole'); ?></h2>
 					<ul class="information margin-tb-30">
 					</ul>
 					<ul class="social-icons">
 						<li>
-							<a href="<?php echo get_option('linkedin'); ?>" target="_blank" rel="noreferrer">
+							<a href="<?= get_option('linkedin'); ?>" target="_blank" rel="noreferrer">
 								<i class="ion-social-linkedin"></i>
 							</a>
 						</li>
 						<li>
-							<a href="<?php echo get_option('instagram'); ?>" target="_blank" rel="noreferrer">
+							<a href="<?= get_option('instagram'); ?>" target="_blank" rel="noreferrer">
 								<i class="ion-social-instagram"></i>
 							</a>
 						</li>
 						<li>
-							<a href="<?php echo get_option('facebook'); ?>" target="_blank" rel="noreferrer">
+							<a href="<?= get_option('facebook'); ?>" target="_blank" rel="noreferrer">
 								<i class="ion-social-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="<?= get_option('github')?>" target="_blank" rel="noreferrer">
+								<i class="ion-social-github"></i>
 							</a>
 						</li>
 					</ul>
@@ -210,7 +215,7 @@
 
 							foreach($cats as $cat):?>
 
-					<a href="#" data-filter=".<?php echo $cat['slug'] ?>" class="">
+					<a href="#" data-filter=".<?= $cat['slug'] ?>" class="">
 						<b>
 							<?= $cat['name'] ?>
 						</b>
@@ -234,7 +239,7 @@
 		$the_query->the_post(); 
 	?>
 		<!-- Put projects here -->
-		<div class="p-item <?php echo get_the_category()[0]->slug; ?>">
+		<div class="p-item <?= get_the_category()[0]->slug; ?>">
 			<a href="#" data-id="<?= get_the_ID() ?>" class="init-fb project-link">
 				<img src="<?= get_field('gallery')[0]['sizes']['medium_large'] ?>" alt="<?=get_field('gallery')[0]['alt']?>">
 				<h4 class="card-img-overlay p-item-caption" style="z-index:2"><?php the_title(); ?></h4>
@@ -316,10 +321,10 @@
 						<b><?php the_title(); ?></b>
 					</h4>
 					<h5 class="font-yellow">
-						<b><?php echo get_post_meta(get_the_ID(), 'company', true) ?></b>
+						<b><?= get_post_meta(get_the_ID(), 'company', true) ?></b>
 					</h5>
 					<h6><?=get_post_meta(get_the_ID(),'location', true)?></h6>
-					<h6 class="margin-t-10"><?php echo get_post_meta(get_the_ID(), 'dates', true) ?></h6>
+					<h6 class="margin-t-10"><?= get_post_meta(get_the_ID(), 'dates', true) ?></h6>
 					<?php the_content() ?>
 				</div>
 				<!-- experience -->

@@ -70,7 +70,7 @@
 		</div>
 		<!-- heading-wrapper -->
 
-		<a class="downlad-btn" href="#" data-toggle="tooltip" data-placement="bottom"
+		<a class="download-btn" href="#" data-toggle="tooltip" data-placement="bottom"
 			title="Currently Unavailable!">Download Brief CV</a>
 	</div>
 	<!-- container -->
@@ -86,8 +86,7 @@
 			<div class="col-md-10 col-lg-8">
 				<div class="intro">
 					<div class="profile-img">
-						<img class="img-circle"
-							src="<?= get_bloginfo('template_directory'); ?>/images/profile-1.jpg"
+						<img class="img-circle" src="<?= get_bloginfo('template_directory'); ?>/images/profile-1.jpg"
 							alt="portait photo">
 					</div>
 					<h1 class="profile-name">
@@ -148,18 +147,142 @@
 						<h4 class="text-center mb-4"><b>What I speak</b></h4>
 						<ul class="skills margin-b-30">
 							<li><span class="skill">English</span><span class="strength">Fluent</span></li>
-							<li><span class="skill">Arabic</span><span class="strength">Fluent</span></li>
-							<li><span class="skill">Japanese</span><span class="strength">N5</span></li>
-							<li><span class="skill">Bulgarian</span><span class="strength">Read/Write</span></li>
+							<li><span class="skill">Arabic عربي</span><span class="strength">Fluent</span></li>
+							<li><span class="skill">Japanese 日本語</span><span class="strength">N5</span></li>
+							<li><span class="skill">Bulgarian Български</span><span class="strength">Read/Write</span>
+							</li>
 						</ul>
 					</div>
 					<div class="col-md-9">
 						<h4 class="text-center mb-4"><b>Where I've been</b></h4>
-						<div id="map"></div>
+						<div id="mapdiv" style="width: 100%; height: 450px;"></div>
 					</div>
-
 				</div>
-
+				<div id="development-skills">
+					<h4 class="text-center mb-4"><b>Development Skills</b></h4>
+					<ul class="skills margin-b-30" style="columns:2; -webkit-columns-break-inside: avoid;">
+						<li>
+							<span class="skill">HTML/CSS</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">JS</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">jQuery</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Sass</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">PHP</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">MySQL</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Wordpress</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Bootstrap</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Python</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">SEO</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">VB.NET</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">MVC Architecture</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<!-- col-sm-6 -->
 
@@ -220,7 +343,7 @@
 							<?= $cat['name'] ?>
 						</b>
 					</a>
-							<?php endforeach; } ?>
+					<?php endforeach; } ?>
 				</div>
 				<!-- portfolioFilter -->
 			</div>
@@ -241,7 +364,8 @@
 		<!-- Put projects here -->
 		<div class="p-item <?= get_the_category()[0]->slug; ?>">
 			<a href="#" data-id="<?= get_the_ID() ?>" class="init-fb project-link">
-				<img src="<?= get_field('gallery')[0]['sizes']['medium_large'] ?>" alt="<?=get_field('gallery')[0]['alt']?>">
+				<img src="<?= get_field('gallery')[0]['sizes']['medium_large'] ?>"
+					alt="<?=get_field('gallery')[0]['alt']?>">
 				<h4 class="card-img-overlay p-item-caption" style="z-index:2"><?php the_title(); ?></h4>
 			</a>
 			<div class="overlay"></div>
@@ -268,7 +392,10 @@
 	jQuery(function ($) {
 		$('.project-link').on('click', function (e) {
 			e.preventDefault();
-			$('.modal-body').html('<div class="text-center" style="height:50rem; padding-top:10rem;"><img style="width:200px;" src="/wp-content/themes/alsado/images/Pacman-1.3s-200px.svg"></div>');			$('#projectModal').modal();
+			$('.modal-body').html(
+				'<div class="text-center" style="height:50rem; padding-top:10rem;"><img style="width:200px;" src="/wp-content/themes/alsado/images/Pacman-1.3s-200px.svg"></div>'
+			);
+			$('#projectModal').modal();
 			var data = {
 				'action': 'load_project',
 				'project': $(this).data('id'),

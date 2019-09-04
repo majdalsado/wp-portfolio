@@ -42,6 +42,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   word-wrap: break-word;
   color: #333;
+  -webkit-column-break-inside: avoid;
 }
 
 @font-face {
@@ -319,7 +320,7 @@ header {
     }
   }
 
-  .downlad-btn {
+  .download-btn {
     padding: 15px 30px;
     border-radius: 4px;
     float: right;
@@ -550,7 +551,7 @@ body.modal-open {
     margin: 0 0 0 6%;
   }
 
-  .modal.fade:not(.in) .modal-dialog {
+  &.modal.fade:not(.in) .modal-dialog {
     -webkit-transform: translate3d(25%, 0, 0);
     transform: translate3d(25%, 0, 0);
   }
@@ -634,6 +635,9 @@ body.modal-open {
 --------------------------------- */
 
 .about-section {
+  #development-skills{
+    margin-top: 1rem;
+  }
   .skills {
     li {
       display: flex;

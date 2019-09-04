@@ -42,6 +42,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   word-wrap: break-word;
   color: #333;
+  -webkit-column-break-inside: avoid;
 }
 
 @font-face {
@@ -307,7 +308,7 @@ header .info .right-area {
   margin-left: 45px;
 }
 
-header .downlad-btn {
+header .download-btn {
   padding: 15px 30px;
   border-radius: 4px;
   float: right;
@@ -320,7 +321,7 @@ header .downlad-btn {
   transition: all .2s ease;
 }
 
-header .downlad-btn:hover {
+header .download-btn:hover {
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px);
 }
@@ -531,7 +532,7 @@ body.modal-open {
   margin: 0 0 0 6%;
 }
 
-#projectModal .modal.fade:not(.in) .modal-dialog {
+#projectModal.modal.fade:not(.in) .modal-dialog {
   -webkit-transform: translate3d(25%, 0, 0);
   transform: translate3d(25%, 0, 0);
 }
@@ -612,6 +613,10 @@ body.modal-open {
 /* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
+.about-section #development-skills {
+  margin-top: 1rem;
+}
+
 .about-section .skills li {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -617,6 +617,10 @@ body.modal-open {
   margin-top: 1rem;
 }
 
+.about-section .skills.single .strength {
+  margin: auto;
+}
+
 .about-section .skills li {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -639,6 +639,9 @@ body.modal-open {
     margin-top: 1rem;
   }
   .skills {
+    &.single .strength{
+      margin: auto;
+    }
     li {
       display: flex;
       flex-direction: row;

@@ -172,13 +172,23 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">JS</span>
+							<span class="skill">Sass</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-half"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">JS</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
@@ -188,17 +198,7 @@
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">Sass</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
@@ -262,7 +262,7 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">VB.NET</span>
+							<span class="skill">MVC Architecture</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -272,12 +272,32 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">MVC Architecture</span>
+							<span class="skill">REST APIs</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">VB.NET</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">C (Arduino)</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>

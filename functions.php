@@ -16,11 +16,11 @@ function startwordpress_scripts() {
     wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array(), '', true);
     wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/js/jquery.waypoints.min.js', array(), '', true);
 
-	wp_enqueue_script( 'scripts.etc', get_template_directory_uri() . '/js/scripts.js', array(), '', true);
-	wp_enqueue_script( 'navbar', get_template_directory_uri() . '/js/navbar.js', array(), '', true);
 	wp_enqueue_script( 'ammap', 'https://www.amcharts.com/lib/3/ammap.js', array(), '', true);
 	wp_enqueue_script( 'worldhigh', 'https://www.amcharts.com/lib/3/maps/js/worldHigh.js', array(), '', true);
 	wp_enqueue_script( 'darkmap', 'https://www.amcharts.com/lib/3/themes/dark.js', array(), '', true);
+	wp_enqueue_script( 'scripts.etc', get_template_directory_uri() . '/js/scripts.js', array(), '', true);
+	wp_enqueue_script( 'navbar', get_template_directory_uri() . '/js/navbar.js', array(), '', true);
 
 	wp_enqueue_style( 'owl', get_template_directory_uri() . '/vendors/owlcarousel/owl.carousel.min.css');
 	wp_enqueue_style( 'owl.theme', get_template_directory_uri() . '/vendors/owlcarousel/owl.theme.default.min.css');

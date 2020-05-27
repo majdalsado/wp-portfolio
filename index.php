@@ -32,7 +32,7 @@
 						<div class="right-area">
 							<h5>Edmonton, AB</h5>
 							<h5>Canada</h5>
-							<h6>WILLING TO RELOCATE</h6>
+							<h6>REMOTE WORK POSSIBLE</h6>
 						</div>
 						<!-- right-area -->
 					</div>
@@ -45,6 +45,7 @@
 						<i class="icon ion-ios-telephone-outline"></i>
 						<div class="right-area">
 							<h5>+1 (780) 807-0176</h5>
+							<h5>&nbsp;</h5>
 							<h6>WITHIN REASONABLE HOURS</h6>
 						</div>
 						<!-- right-area -->
@@ -58,6 +59,7 @@
 						<i class="icon ion-ios-chatboxes-outline"></i>
 						<div class="right-area">
 							<h5><?= get_option('email');?></h5>
+							<h5>&nbsp;</h5>
 							<h6>REPLY IN 24 HOURS</h6>
 						</div>
 						<!-- right-area -->
@@ -609,9 +611,9 @@
 						<p class="margin-tb-30">Participated in exchange program abroad at the prestigious National
 							University of Singapore for 4 months under University of Alberta Go Abroad.</p>
 						<ul class="list margin-b-30">
-							<li>Awarded Rod & Judith Fraser International Undergraduate Learning Scholarship</li>
-							<li>Travelled to 5 different countries across Asia</li>
-							<li>Explored new cultures and learned valuable life lessons</li>
+							<li>Awarded Rod & Judith Fraser International Undergraduate Learning Scholarship.</li>
+							<li>Travelled to 5 countries across Asia.</li>
+							<li>Explored new cultures and learned valuable life lessons.</li>
 						</ul>
 						<h5 class="font-yellow margin-b-20"><b>Courses Taken:</b></h5>
 						<ul class="list margin-b-30">
@@ -634,8 +636,8 @@
 						<p class="margin-tb-30">Currently working on completing my Co-op degree in Civil Engineering
 							with a combined 20 months of work experience.</p>
 						<ul class="list margin-b-30">
-							<li>Maintained Academic First Class Standing throughout all years</li>
-							<li>Awarded 10 scholarships throughout my degree</li>
+							<li>Maintained Academic First Class Standing throughout all years.</li>
+							<li>Awarded 10+ scholarships throughout my degree.</li>
 						</ul>
 
 					</div>

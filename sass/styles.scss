@@ -21,6 +21,8 @@
 1. PRIMARY STYLES
 --------------------------------- */
 
+$baseColor: #FFA600;
+
 html {
   font-size: 100%;
   height: 100%;
@@ -136,7 +138,7 @@ a {
   &:active,
   &:hover {
     text-decoration: none;
-    color: #FFA804;
+    color: $baseColor;
   }
 }
 
@@ -146,13 +148,13 @@ button {
   &:active,
   &:hover {
     text-decoration: none;
-    color: #FFA804;
+    color: $baseColor;
   }
 }
 
 a b.light-color:hover {
   text-decoration: none;
-  color: #FFA804;
+  color: $baseColor;
 }
 
 b {
@@ -243,7 +245,7 @@ b.max-bold {
       border-radius: 5px;
       margin-bottom: 20px;
       display: block;
-      background: #FFA804;
+      background: $baseColor;
     }
   }
 }
@@ -266,7 +268,7 @@ b.max-bold {
 }
 
 .font-yellow {
-  color: #FFA600;
+  color: $baseColor;
 }
 
 .font-semi-white {
@@ -286,7 +288,7 @@ b.max-bold {
 }
 
 .list>li:before {
-  border: 2px solid #FFAB00;
+  border: 2px solid $baseColor;
 }
 
 /* ---------------------------------
@@ -303,7 +305,7 @@ header {
   .heading-wrapper {
     border-radius: 5px;
     padding: 30px 40px 20px;
-    background: #FFAD01;
+    background: $baseColor;
     color: #fff;
   }
 
@@ -326,7 +328,7 @@ header {
     float: right;
     margin-top: 30px;
     box-shadow: inset 0 0px 4px rgba(0, 0, 0, 0.3);
-    background: #FFAD01;
+    background: $baseColor;
     color: #fff;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
@@ -428,7 +430,7 @@ header {
             top: 0;
             z-index: -1;
             border-radius: 20px;
-            background: #FFA804;
+            background: $baseColor;
             -webkit-transition: all .2s ease;
             transition: all .2s ease;
             -webkit-transform: scale(0);
@@ -464,7 +466,7 @@ header {
       margin: 10px 10px 0 0;
 
       &.current {
-        color: #FFA804;
+        color: $baseColor;
       }
     }
   }
@@ -570,11 +572,11 @@ body.modal-open {
 
   .curly-braces {
     margin: 0 1rem;
-    color: #FFA804;
+    color: $baseColor;
   }
 
   .navbar-portfolio {
-    background: #FFAD01;
+    background: $baseColor;
     color: #fff !important;
     font-size: large;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -639,14 +641,40 @@ body.modal-open {
     margin-top: 1rem;
   }
   .skills {
-    &.single .strength{
-      margin: auto;
+    &.single{
+          /*
+      li#teamwork:before{
+        content: url('https://alsado.ca/wp-content/themes/alsado/images/teamwork.svg');
+      }
+      li#innovate:before{
+        content: url('https://alsado.ca/wp-content/themes/alsado/images/innovate.svg');
+      }
+      li#communication:before{
+        content: url('https://alsado.ca/wp-content/themes/alsado/images/communication.svg');
+      }
+      li#learning:before{
+        content: url('https://alsado.ca/wp-content/themes/alsado/images/learning.svg');
+      }
+      li:before{
+        content: '';
+        position: relative;
+        right: 0;
+        top: 5px;
+        width: 50px;
+        height: 50px;
+        transform: scale(1.4);
+      }*/
+      .strength{
+        margin: auto;
+      }
     }
     li {
       display: flex;
       flex-direction: row;
       padding: 8px;
       border-radius: 5px;
+      height: 40px;
+      overflow: hidden;
 
       &:hover {
         background: #F2F2F2;
@@ -657,7 +685,7 @@ body.modal-open {
       }
 
       .strength {
-        color: #FFAD01;
+        color: $baseColor;
       }
     }
   }
@@ -716,7 +744,7 @@ body.modal-open {
       border-radius: 10px;
       z-index: 1;
       box-shadow: 0 0 0 8px rgba(255, 171, 0, 0.4);
-      background: #FFAB00;
+      background: $baseColor;
     }
   }
 }
@@ -801,12 +829,12 @@ body.modal-open {
 
       &.active {
         a {
-          background: #FFAD01;
+          background: $baseColor;
           color: #FFFFFF;
 
           &:hover,
           &:focus {
-            background: #FFAD01;
+            background: $baseColor;
             color: #FFFFFF;
           }
         }
@@ -849,6 +877,10 @@ nav.invert {
   a {
     color: #222222 !important;
   }
+
+  li.active a{
+    color: #fff !important;
+  }
 }
 
 section.project {
@@ -888,7 +920,7 @@ section.project {
     width: 40px;
     line-height: 40px;
     border-radius: 30px;
-    background: #FFAB00;
+    background: $baseColor;
     color: #fff;
   }
 }

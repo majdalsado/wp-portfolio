@@ -145,20 +145,19 @@
 				<hr>
 				<div class="row">
 					<div class="col-md-3">
+					<h4 class="text-center mb-4"><b>What I'm best at</b></h4>
+						<ul class="skills margin-b-30 single">
+							<li id="learning"><span class="strength">Quick Learner</span></li>
+							<li id="innovate"><span class="strength">Innovation</span></li>
+							<li id="communication"><span class="strength">Communication</span></li>
+							<li id="teamwork"><span class="strength">Teamwork</span></li>
+						</ul>
 						<h4 class="text-center mb-4"><b>What I speak</b></h4>
 						<ul class="skills margin-b-30">
 							<li><span class="skill">English</span><span class="strength">Fluent</span></li>
 							<li><span class="skill">Arabic عربي</span><span class="strength">Fluent</span></li>
 							<li><span class="skill">Japanese 日本語</span><span class="strength">N5</span></li>
 							<li><span class="skill">Bulgarian Български</span><span class="strength">Read/Write</span>
-							</li>
-						</ul>
-						<h4 class="text-center mb-4"><b>What I'm good at</b></h4>
-						<ul class="skills margin-b-30 single">
-							<li><span class="strength">Quick Learner</span></li>
-							<li><span class="strength">Communication</span></li>
-							<li><span class="strength">Teamwork</span></li>
-							<li><span class="strength">Problem Solving</span>
 							</li>
 						</ul>
 					</div>
@@ -168,6 +167,91 @@
 					</div>
 				</div>
 				<hr>
+				<div id="engineering-skills">
+					<h4 class="text-center mb-4"><b>Engineering Skills</b></h4>
+					<ul class="skills margin-b-30" style="columns:2; -webkit-columns-break-inside: avoid;">
+						<li>
+							<span class="skill">Presenting Skills</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Communication</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Project Management</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Construction Estimation</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">General Contracting</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Drafting & 3D Modelling</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">LEED</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Drainage Modelling</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+					</ul>
+				</div><hr>
 				<div id="development-skills">
 					<h4 class="text-center mb-4"><b>Development Skills</b></h4>
 					<ul class="skills margin-b-30" style="columns:2; -webkit-columns-break-inside: avoid;">
@@ -303,71 +387,6 @@
 						</li>
 						<li>
 							<span class="skill">C (Arduino)</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-					</ul>
-				</div><hr>
-				<div id="engineering-skills">
-					<h4 class="text-center mb-4"><b>Engineering Skills</b></h4>
-					<ul class="skills margin-b-30" style="columns:2; -webkit-columns-break-inside: avoid;">
-						<li>
-							<span class="skill">Construction Project Management</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">Construction Estimation</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">General Contracting</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">Drafting & 3D Modelling</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">LEED</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">Drainage Modelling</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -616,7 +635,7 @@
 							with a combined 20 months of work experience.</p>
 						<ul class="list margin-b-30">
 							<li>Maintained Academic First Class Standing throughout all years</li>
-							<li>Awarded 8 Scholarships throughout my degree</li>
+							<li>Awarded 10 scholarships throughout my degree</li>
 						</ul>
 
 					</div>

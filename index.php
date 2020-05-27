@@ -30,8 +30,7 @@
 					<div class="info">
 						<i class="icon ion-ios-location-outline"></i>
 						<div class="right-area">
-							<h5>Edmonton, AB</h5>
-							<h5>Canada</h5>
+							<h5>Edmonton, AB, Canada</h5>
 							<h6>REMOTE WORK POSSIBLE</h6>
 						</div>
 						<!-- right-area -->
@@ -45,7 +44,6 @@
 						<i class="icon ion-ios-telephone-outline"></i>
 						<div class="right-area">
 							<h5>+1 (780) 807-0176</h5>
-							<h5>&nbsp;</h5>
 							<h6>WITHIN REASONABLE HOURS</h6>
 						</div>
 						<!-- right-area -->
@@ -59,7 +57,6 @@
 						<i class="icon ion-ios-chatboxes-outline"></i>
 						<div class="right-area">
 							<h5><?= get_option('email');?></h5>
-							<h5>&nbsp;</h5>
 							<h6>REPLY IN 24 HOURS</h6>
 						</div>
 						<!-- right-area -->

@@ -181,8 +181,6 @@
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
 							</span>
 						</li>
 						<li>
@@ -191,15 +189,19 @@
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Business Process Development</span>
+							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
 							<span class="skill">Teamwork Skills</span>
 							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -210,9 +212,7 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
@@ -220,9 +220,7 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
@@ -230,9 +228,7 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
@@ -240,16 +236,12 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
 							<span class="skill">Tableau</span>
 							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-outline"></span>
@@ -258,8 +250,6 @@
 						<li>
 							<span class="skill">Alteryx</span>
 							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-outline"></span>
@@ -288,16 +278,12 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
 							<span class="skill">HTML/CSS/JS</span>
 							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -308,8 +294,6 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
@@ -318,9 +302,7 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
@@ -328,9 +310,7 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
@@ -338,9 +318,7 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
@@ -348,9 +326,7 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
@@ -358,9 +334,7 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 							</span>
 						</li>
 						<li>
@@ -368,8 +342,6 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
@@ -378,8 +350,6 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
@@ -388,8 +358,6 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
@@ -398,8 +366,6 @@
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
@@ -407,9 +373,7 @@
 							<span class="skill">REST APIs</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-half"></span>
-								<span class="ion-ios-star-outline"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
@@ -417,9 +381,7 @@
 							<span class="skill">VBA</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-half"></span>
-								<span class="ion-ios-star-outline"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
@@ -427,9 +389,7 @@
 							<span class="skill">C (Arduino)</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star-half"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>

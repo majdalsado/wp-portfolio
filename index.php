@@ -192,14 +192,6 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">Business Process Development</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-						<li>
 							<span class="skill">Teamwork Skills</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
@@ -216,6 +208,14 @@
 							</span>
 						</li>
 						<li>
+							<span class="skill">Business Process Development</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
 							<span class="skill">Project Management</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
@@ -225,6 +225,14 @@
 						</li>
 						<li>
 							<span class="skill">Client Skills</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Storyboarding</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>

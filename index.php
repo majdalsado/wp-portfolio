@@ -196,13 +196,23 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">Working a Team</span>
+							<span class="skill">Teamwork Skills</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Analytical Acumen</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
@@ -227,16 +237,6 @@
 						</li>
 						<li>
 							<span class="skill">Market Research</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">Analytical Acumen</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>

@@ -150,7 +150,7 @@
 				<hr>
 				<div class="row">
 					<div class="col-md-3">
-					<h4 class="text-center mb-4"><b>What I'm best at</b></h4>
+						<h4 class="text-center mb-4"><b>What I'm best at</b></h4>
 						<ul class="skills margin-b-30 single">
 							<li id="learning"><span class="strength">Quick Learner</span></li>
 							<li id="innovate"><span class="strength">Innovation</span></li>
@@ -173,10 +173,10 @@
 				</div>
 				<hr>
 				<div id="engineering-skills">
-					<h4 class="text-center mb-4"><b>Engineering Skills</b></h4>
+					<h4 class="text-center mb-4"><b>Business Skills</b></h4>
 					<ul class="skills margin-b-30" style="columns:2; -webkit-columns-break-inside: avoid;">
 						<li>
-							<span class="skill">Presenting Skills</span>
+							<span class="skill">Presentation Skills</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -186,7 +186,7 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">Communication</span>
+							<span class="skill">Communication Skills</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -201,67 +201,70 @@
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
-							<span class="skill">Construction Estimation</span>
+							<span class="skill">Market Research</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
-							<span class="skill">General Contracting</span>
+							<span class="skill">Tableau</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-half"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
-							<span class="skill">Drafting &amp; 3D Modelling</span>
+							<span class="skill">Alteryx</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
-							<span class="skill">LEED</span>
+							<span class="skill">Certified ScrumMaster</span>
 							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">Drainage Modelling</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
-								<span class="ion-ios-star-outline"></span>
+								<span>Attained</span>
 							</span>
 						</li>
 					</ul>
-				</div><hr>
+				</div>
+				<hr>
 				<div id="development-skills">
-					<h4 class="text-center mb-4"><b>Development Skills</b></h4>
+					<h4 class="text-center mb-4"><b>Technology Skills</b></h4>
 					<ul class="skills margin-b-30" style="columns:2; -webkit-columns-break-inside: avoid;">
 						<li>
-							<span class="skill">HTML/CSS</span>
+							<span class="skill">Microsoft Certified: Azure Fundamentals</span>
+							<span class="strength">
+								<span>Attained</span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">Cloud Computing</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">HTML/CSS/JS</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -278,16 +281,6 @@
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star-half"></span>
-							</span>
-						</li>
-						<li>
-							<span class="skill">JS</span>
-							<span class="strength">
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star"></span>
-								<span class="ion-ios-star-outline"></span>
 							</span>
 						</li>
 						<li>
@@ -351,6 +344,16 @@
 							</span>
 						</li>
 						<li>
+							<span class="skill">PHP</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-half"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
 							<span class="skill">SEO</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
@@ -381,7 +384,7 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">VB.NET</span>
+							<span class="skill">VBA</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>

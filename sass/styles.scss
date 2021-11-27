@@ -670,6 +670,7 @@ body.modal-open {
       border-radius: 5px;
       height: 40px;
       overflow: hidden;
+      break-inside: avoid;
 
       &:hover {
         background: #F2F2F2;

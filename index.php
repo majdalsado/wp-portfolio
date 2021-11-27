@@ -224,7 +224,7 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">Working with Clients</span>
+							<span class="skill">Client Skills</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -275,6 +275,14 @@
 						</li>
 						<li>
 							<span class="skill">Cloud Computing</span>
+							<span class="strength">
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star"></span>
+								<span class="ion-ios-star-outline"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill">UI & UX</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>

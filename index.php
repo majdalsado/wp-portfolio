@@ -30,8 +30,10 @@
 					<div class="info">
 						<i class="icon ion-ios-location-outline"></i>
 						<div class="right-area">
-							<h5>Edmonton, AB, Canada</h5>
-							<h6>REMOTE WORK POSSIBLE</h6>
+							<h5>Calgary, AB</h5>
+							<h6>
+								CANADA
+							</h6>
 						</div>
 						<!-- right-area -->
 					</div>
@@ -44,7 +46,9 @@
 						<i class="icon ion-ios-telephone-outline"></i>
 						<div class="right-area">
 							<h5>+1 (780) 807-0176</h5>
-							<h6>WITHIN REASONABLE HOURS</h6>
+							<h6>
+								MST HOURS
+							</h6>
 						</div>
 						<!-- right-area -->
 					</div>
@@ -57,7 +61,9 @@
 						<i class="icon ion-ios-chatboxes-outline"></i>
 						<div class="right-area">
 							<h5><?= get_option('email');?></h5>
-							<h6>REPLY IN 24 HOURS</h6>
+							<H6>
+								REPLY WITHIN 1 DAY
+							</H6>
 						</div>
 						<!-- right-area -->
 					</div>
@@ -155,8 +161,8 @@
 						<ul class="skills margin-b-30">
 							<li><span class="skill">English</span><span class="strength">Fluent</span></li>
 							<li><span class="skill">Arabic عربي</span><span class="strength">Fluent</span></li>
-							<li><span class="skill">Japanese 日本語</span><span class="strength">N5</span></li>
-							<li><span class="skill">Bulgarian Български</span><span class="strength">Read/Write</span>
+							<li><span class="skill">Japanese 日本語</span><span class="strength">Beginner</span></li>
+							<li><span class="skill">Russian Pусский</span><span class="strength">Read/Write</span>
 							</li>
 						</ul>
 					</div>
@@ -220,7 +226,7 @@
 							</span>
 						</li>
 						<li>
-							<span class="skill">Drafting & 3D Modelling</span>
+							<span class="skill">Drafting &amp; 3D Modelling</span>
 							<span class="strength">
 								<span class="ion-ios-star"></span>
 								<span class="ion-ios-star"></span>
@@ -596,6 +602,24 @@
 			<!-- col-sm-4 -->
 			<div class="col-sm-8">
 				<div class="education-wrapper">
+					<!-- education -->
+					<div class="education margin-b-50">
+						<h4>
+							<b>BSC IN CIVIL ENGINEERING (CO-OP)</b>
+						</h4>
+						<h5 class="font-yellow">
+							<b>UNIVERSITY OF ALBERTA</b>
+						</h5>
+						<h6>EDMONTON, AB, CANADA</h6>
+						<h6 class="font-lite-black margin-t-10">2015 - 2020</h6>
+						<p class="margin-tb-30"></p>
+						<ul class="list margin-b-30">
+							<li>Maintained Academic First Class Standing throughout all years.</li>
+							<li>Awarded 10+ scholarships throughout my degree.</li>
+						</ul>
+
+					</div>
+					<!-- education -->
 					<div class="education margin-b-50">
 						<h4>
 							<b>EXCHANGE PROGRAM</b>
@@ -620,25 +644,6 @@
 						</ul>
 
 					</div>
-					<!-- education -->
-					<div class="education margin-b-50">
-						<h4>
-							<b>BSC IN CIVIL ENGINEERING (CO-OP)</b>
-						</h4>
-						<h5 class="font-yellow">
-							<b>UNIVERSITY OF ALBERTA</b>
-						</h5>
-						<h6>EDMONTON, AB, CANADA</h6>
-						<h6 class="font-lite-black margin-t-10">GRADUATING IN APRIL 2020</h6>
-						<p class="margin-tb-30">Currently working on completing my Co-op degree in Civil Engineering
-							with a combined 20 months of work experience.</p>
-						<ul class="list margin-b-30">
-							<li>Maintained Academic First Class Standing throughout all years.</li>
-							<li>Awarded 10+ scholarships throughout my degree.</li>
-						</ul>
-
-					</div>
-					<!-- education -->
 
 				</div>
 				<!-- education-wrapper -->

@@ -44,6 +44,12 @@ add_action('wp_print_styles', 'startwordpress_google_fonts');
 add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' ); 
 
+// Hide wp version from head for security
+function wp_version_remove_version() {
+	return '';
+}
+add_filter('the_generator', 'wp_version_remove_version');
+
 // Dynamically load projects using project.php template
 function load_project(){
 	check_ajax_referer('load_project', 'security');
